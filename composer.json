@@ -1,0 +1,26 @@
+{
+    "name": "glavweb/silex-cms",
+    "description": "GLAVWEB.cms SilexCms package",
+    "authors": [
+        {
+            "name": "nilov",
+            "email": "nilov@glavweb.ru",
+            "homepage": "http://glavweb.ru"
+        },
+        {
+            "name": "GLAVWEB Community",
+            "homepage": "https://github.com/glavweb/silex-cms/contributors"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "pimple/pimple": "~3.0",
+        "glavweb/silex-guzzlehttp": "~0.1",
+        "glavweb/cms-rest-client": "~0.1",
+        "glavweb/cms-content-block": "~0.4",
+        "glavweb/cms-composite-object": "~0.3"
+    },
+    "autoload": {
+        "psr-4": { "Glavweb\\SilexCms\\": "src/" }
+    }
+}
