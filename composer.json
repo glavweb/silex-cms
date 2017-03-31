@@ -17,8 +17,8 @@
         "pimple/pimple": "~3.0",
         "glavweb/silex-guzzlehttp": "~0.1",
         "glavweb/cms-rest-client": "~0.1",
-        "glavweb/cms-content-block": "~0.4",
-        "glavweb/cms-composite-object": "~0.3"
+        "glavweb/cms-composite-object": "~1.0",
+        "glavweb/cms-content-block": "~1.0"
     },
     "autoload": {
         "psr-4": { "Glavweb\\SilexCms\\": "src/" }
